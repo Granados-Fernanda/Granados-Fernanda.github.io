@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Pangolin&display=swap');
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    list-style: none; }
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; }
+header ul li {
+margin: 25px;
+color: rgb(236, 181, 29);
+}
+a{text-decoration: none !important;}
+img {width: 250px;}
+p {
+    font-family: 'Merriweather', serif;
+    font-family: 'Pangolin', cursive;
+}
+#carusel img {
+    height: 300px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: bisque;
+}
+.col-md-4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+#Opening {
+    display: flex;
+    flex-direction: column;
+    
+}
+.row img {
+    border-radius: 50%;
+    padding: 10px;
+    height: 330px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.container-xxl {
+  display: flex;
+  background-color: rgb(233, 219, 247);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn btn-primary{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #fd0d5d;
+
+  }
+  .col-md-6 Openings {
+    height: 30%;
+  }
